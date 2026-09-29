@@ -16,3 +16,6 @@ Release/
 
 # 忽略 VS Code 的配置文件夹（如果是跨电脑备份，最好不要提交这些配置）
 .vscode/
+
+# 忽略具体的某个文件
+CppProperties.json
