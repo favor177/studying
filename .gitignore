@@ -1,0 +1,18 @@
+# 忽略编译生成的可执行文件和中间文件
+*.exe
+*.out
+*.o
+*.obj
+
+# 忽略编译生成的文件夹
+build/
+output/
+Debug/
+Release/
+
+# 忽略 Visual Studio 隐藏文件夹及数据库文件
+.vs/
+*.sqlite
+
+# 忽略 VS Code 的配置文件夹（如果是跨电脑备份，最好不要提交这些配置）
+.vscode/
